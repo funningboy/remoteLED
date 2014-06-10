@@ -13,6 +13,15 @@ remote LED
 -- android phone
 -- send remote control command to Server
 
+how to run it?
+for server part
+% cd raspberrypi
+% python server.py
+
+for client part
+- using eclipse to import prj and port exe to your android device
+
+
 REF:
 setup raspberry pi GPIO, WIFI adaptor
 http://www.thirdeyevis.com/pi-page-1.php
