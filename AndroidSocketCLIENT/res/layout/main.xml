@@ -5,18 +5,49 @@
     android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/EditText01"
+        android:id="@+id/EditTextAddr"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="JavaCodeGeeks" >
+        android:hint="your ip addr ex:192.168.1.5" >
     </EditText>
 
+    <EditText
+        android:id="@+id/EditTextPort"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="your ip port ex:5000" >
+    </EditText>
+    
     <Button
-        android:id="@+id/myButton"
+        android:id="@+id/ButtonSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClick"
         android:text="Send" >
     </Button>
 
+     <Button
+        android:id="@+id/ButtonLED1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="LED1" >
+    </Button>
+    
+     <Button
+        android:id="@+id/ButtonLED2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="LED2" >
+    </Button>
+    
+    <EditText
+        android:id="@+id/EditTextStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="status" 
+        android:editable="false">
+    </EditText>
+     
 </LinearLayout>
